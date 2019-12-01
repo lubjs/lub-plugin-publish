@@ -11,7 +11,7 @@
 
 [npm-image]: https://img.shields.io/npm/v/lub-plugin-publish.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/lub-plugin-publish
-[travis-image]: https://img.shields.io/travis//lub-plugin-publish.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/lubjs/lub-plugin-publish.svg?style=flat-square
 [travis-url]: https://travis-ci.org/lubjs/lub-plugin-publish
 [codecov-image]: https://codecov.io/gh/lubjs/lub-plugin-publish/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/lubjs/lub-plugin-publish
