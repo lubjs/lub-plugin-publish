@@ -9,15 +9,19 @@
     "lub-log": "^0.1.1",
     "safe-publish-tag": "^1.0.0",
     "semver": "^6.3.0",
+    "utility": "^1.16.3",
     "ypkgfiles": "^1.6.0"
   },
   "devDependencies": {
     "autod": "^3.0.1",
+    "coffee": "^5.2.2",
     "egg-bin": "^4.3.7",
     "egg-ci": "^1.8.0",
     "eslint": "^4.18.1",
     "eslint-config-egg": "^7.0.0",
-    "lub": "^0.1.1"
+    "lub": "^0.1.1",
+    "mm": "^2.5.0",
+    "rimraf": "^3.0.0"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -40,8 +44,8 @@
     "url": ""
   },
   "files": [
-    "lib",
-    "index.js"
+    "index.js",
+    "lib"
   ],
   "author": "",
   "license": "MIT"
