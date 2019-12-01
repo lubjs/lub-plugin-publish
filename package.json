@@ -48,7 +48,8 @@
   },
   "files": [
     "index.js",
-    "lib"
+    "lib",
+    "scripts"
   ],
   "author": "",
   "license": "MIT"
