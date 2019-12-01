@@ -76,6 +76,10 @@ Options:
   --npm, -n       whether to publish to npm         [boolean] [default: true]
 ```
 
+**tip**
+
+You can run `lub pubish [version] --no-npm` to only publish to git.
+
 ## License
 
 [MIT](LICENSE)
