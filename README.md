@@ -12,11 +12,11 @@
 [npm-image]: https://img.shields.io/npm/v/lub-plugin-publish.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/lub-plugin-publish
 [travis-image]: https://img.shields.io/travis//lub-plugin-publish.svg?style=flat-square
-[travis-url]: https://travis-ci.org//lub-plugin-publish
-[codecov-image]: https://codecov.io/gh//lub-plugin-publish/branch/master/graph/badge.svg
-[codecov-url]: https://codecov.io/gh//lub-plugin-publish
-[david-image]: https://img.shields.io/david//lub-plugin-publish.svg?style=flat-square
-[david-url]: https://david-dm.org//lub-plugin-publish
+[travis-url]: https://travis-ci.org/lubjs/lub-plugin-publish
+[codecov-image]: https://codecov.io/gh/lubjs/lub-plugin-publish/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/lubjs/lub-plugin-publish
+[david-image]: https://img.shields.io/david/lubjs/lub-plugin-publish.svg?style=flat-square
+[david-url]: https://david-dm.org/lubjs/lub-plugin-publish
 [snyk-image]: https://snyk.io/test/npm/lub-plugin-publish/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/lub-plugin-publish
 [download-image]: https://img.shields.io/npm/dm/lub-plugin-publish.svg?style=flat-square
