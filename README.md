@@ -34,7 +34,7 @@ Featrues:
 ## Install
 
 ```bash
-npm i lub-plugin-publish --save
+npm i lub lub-plugin-publish --save
 ```
 
 ## Usage:
