@@ -1,3 +1,7 @@
 'use strict';
 
-module.exports = 'hi, developer';
+const publish = require('./lib/publish');
+
+module.exports = {
+  publish,
+};
