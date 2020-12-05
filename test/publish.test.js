@@ -95,6 +95,41 @@ describe('test/publish.test.js', () => {
     );
   });
 
+  it('should not pubish to npm', async () => {
+    fs.writeFileSync(
+      path.join(fixturePath, 'package.json'),
+      JSON.stringify(
+        {
+          private: true,
+          version: '0.1.0',
+        },
+        null,
+        2
+      )
+    );
+
+    await coffee
+      .fork(
+        require.resolve('lub/bin/lub.js'),
+        [ 'publish', '--filename=HISTORY' ],
+        {
+          cwd: fixturePath,
+        }
+      )
+      .beforeScript(mockPath)
+      .debug()
+      .expect('stdout', /commits to publish/)
+      .notExpect('stdout', /publish new verson.*finished/)
+      .expect('stdout', /push.*to git successfully/)
+      .end();
+    assert(fs.existsSync(path.join(fixturePath, 'HISTORY.md')));
+    assert.equal(
+      JSON.parse(fs.readFileSync(path.join(fixturePath, 'package.json')))
+        .version,
+      '1.0.0'
+    );
+  });
+
   it('should exit(0) when preleaseCheck return false', async () => {
     const mock = path.join(fixturePath, '/rejectPreleaseCheck');
 
