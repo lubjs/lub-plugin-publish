@@ -32,11 +32,10 @@
   "scripts": {
     "autod": "autod",
     "lint": "eslint .",
-    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
-    "ci": "npm run lint && egg-bin pkgfiles --check && npm run cov",
-    "pkgfiles": "egg-bin pkgfiles"
+    "ci": "npm run lint && npm run cov"
   },
   "eslintIgnore": [
     "coverage",
@@ -48,7 +47,8 @@
   },
   "files": [
     "index.js",
-    "lib"
+    "lib",
+    "scripts"
   ],
   "author": "",
   "license": "MIT"
